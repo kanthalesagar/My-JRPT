@@ -4,6 +4,10 @@ import java.io.UnsupportedEncodingException;
 
 public class Welcome {
 
+	public Welcome(){
+	
+	}
+
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		EncodeDecodeUtils encodeDecodeUtils = new EncodeDecodeUtils();
 		String encodeString  = encodeDecodeUtils.encode("123124Sagar123");
